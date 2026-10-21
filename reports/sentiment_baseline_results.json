@@ -1,0 +1,127 @@
+{
+  "training_sample": 500000,
+  "validation_sample": 100000,
+  "features": 100000,
+  "selection_metric": "validation_macro_f1",
+  "best_pilot_model": "logistic_regression",
+  "results": {
+    "naive_bayes": {
+      "accuracy": 0.79962,
+      "macro_f1": 0.6665188895878661,
+      "fit_minutes": 0.02,
+      "predict_seconds": 0.04,
+      "classification_report": {
+        "negative": {
+          "precision": 0.7433362213954436,
+          "recall": 0.7575836276750467,
+          "f1-score": 0.7503923031409976,
+          "support": 19252.0
+        },
+        "neutral": {
+          "precision": 0.24801686359349864,
+          "recall": 0.6023171224572276,
+          "f1-score": 0.3513555992141454,
+          "support": 7423.0
+        },
+        "positive": {
+          "precision": 0.9768090839107005,
+          "recall": 0.8306307534947153,
+          "f1-score": 0.8978087664084554,
+          "support": 73325.0
+        },
+        "accuracy": 0.79962,
+        "macro avg": {
+          "precision": 0.6560540562998809,
+          "recall": 0.7301771678756631,
+          "f1-score": 0.6665188895878661,
+          "support": 100000.0
+        },
+        "weighted avg": {
+          "precision": 0.8777626419051173,
+          "recall": 0.79962,
+          "f1-score": 0.8288649302993708,
+          "support": 100000.0
+        }
+      }
+    },
+    "logistic_regression": {
+      "accuracy": 0.82848,
+      "macro_f1": 0.6905078195384363,
+      "fit_minutes": 0.53,
+      "predict_seconds": 0.04,
+      "classification_report": {
+        "negative": {
+          "precision": 0.7855026455026455,
+          "recall": 0.7711406607105755,
+          "f1-score": 0.7782553994548124,
+          "support": 19252.0
+        },
+        "neutral": {
+          "precision": 0.2756045068996075,
+          "recall": 0.586555301091203,
+          "f1-score": 0.3750053830584385,
+          "support": 7423.0
+        },
+        "positive": {
+          "precision": 0.9746715261400876,
+          "recall": 0.8680259120354585,
+          "f1-score": 0.918262676102058,
+          "support": 73325.0
+        },
+        "accuracy": 0.82848,
+        "macro avg": {
+          "precision": 0.6785928928474468,
+          "recall": 0.7419072912790791,
+          "f1-score": 0.6905078195384363,
+          "support": 100000.0
+        },
+        "weighted avg": {
+          "precision": 0.8863609884015465,
+          "recall": 0.82848,
+          "f1-score": 0.8509824863393024,
+          "support": 100000.0
+        }
+      }
+    },
+    "linear_svm": {
+      "accuracy": 0.86315,
+      "macro_f1": 0.687097102457095,
+      "fit_minutes": 2.32,
+      "predict_seconds": 0.04,
+      "classification_report": {
+        "negative": {
+          "precision": 0.7694640548871433,
+          "recall": 0.8039164762102639,
+          "f1-score": 0.7863130620332266,
+          "support": 19252.0
+        },
+        "neutral": {
+          "precision": 0.3189612934835865,
+          "recall": 0.3508015627104944,
+          "f1-score": 0.33412459100532493,
+          "support": 7423.0
+        },
+        "positive": {
+          "precision": 0.9513677811550152,
+          "recall": 0.9305693828844187,
+          "f1-score": 0.9408536543327335,
+          "support": 73325.0
+        },
+        "accuracy": 0.86315,
+        "macro avg": {
+          "precision": 0.6799310431752484,
+          "recall": 0.6950958072683924,
+          "f1-score": 0.687097102457095,
+          "support": 100000.0
+        },
+        "weighted avg": {
+          "precision": 0.8694041421940744,
+          "recall": 0.86315,
+          "f1-score": 0.8660640011324389,
+          "support": 100000.0
+        }
+      }
+    }
+  },
+  "note": "Pilot results only; test set not used."
+}

@@ -1,0 +1,169 @@
+{
+  "amazon_reviews": {
+    "file": "Cell_Phones_and_Accessories.jsonl.gz",
+    "exists": true,
+    "size_gb": 2.359,
+    "sampled_records": 5000,
+    "sample_limit": 5000,
+    "parse_errors": 0,
+    "fields": {
+      "rating": 5000,
+      "title": 5000,
+      "text": 5000,
+      "images": 5000,
+      "asin": 5000,
+      "parent_asin": 5000,
+      "user_id": 5000,
+      "timestamp": 5000,
+      "helpful_vote": 5000,
+      "verified_purchase": 5000
+    },
+    "field_types": {
+      "rating": {
+        "float": 5000
+      },
+      "title": {
+        "str": 5000
+      },
+      "text": {
+        "str": 5000
+      },
+      "images": {
+        "list": 5000
+      },
+      "asin": {
+        "str": 5000
+      },
+      "parent_asin": {
+        "str": 5000
+      },
+      "user_id": {
+        "str": 5000
+      },
+      "timestamp": {
+        "int": 5000
+      },
+      "helpful_vote": {
+        "int": 5000
+      },
+      "verified_purchase": {
+        "bool": 5000
+      }
+    },
+    "rating_distribution": {
+      "4.0": 669,
+      "5.0": 3258,
+      "3.0": 383,
+      "2.0": 232,
+      "1.0": 458
+    }
+  },
+  "amazon_metadata": {
+    "file": "meta_Cell_Phones_and_Accessories.jsonl.gz",
+    "exists": true,
+    "size_gb": 0.799,
+    "sampled_records": 5000,
+    "sample_limit": 5000,
+    "parse_errors": 0,
+    "fields": {
+      "main_category": 5000,
+      "title": 5000,
+      "average_rating": 5000,
+      "rating_number": 5000,
+      "features": 5000,
+      "description": 5000,
+      "price": 5000,
+      "images": 5000,
+      "videos": 5000,
+      "store": 5000,
+      "categories": 5000,
+      "details": 5000,
+      "parent_asin": 5000,
+      "bought_together": 5000,
+      "subtitle": 9,
+      "author": 9
+    },
+    "field_types": {
+      "main_category": {
+        "str": 4992,
+        "NoneType": 8
+      },
+      "title": {
+        "str": 5000
+      },
+      "average_rating": {
+        "float": 5000
+      },
+      "rating_number": {
+        "int": 5000
+      },
+      "features": {
+        "list": 5000
+      },
+      "description": {
+        "list": 5000
+      },
+      "price": {
+        "NoneType": 3165,
+        "float": 1835
+      },
+      "images": {
+        "list": 5000
+      },
+      "videos": {
+        "list": 5000
+      },
+      "store": {
+        "str": 4955,
+        "NoneType": 45
+      },
+      "categories": {
+        "list": 5000
+      },
+      "details": {
+        "dict": 5000
+      },
+      "parent_asin": {
+        "str": 5000
+      },
+      "bought_together": {
+        "NoneType": 5000
+      },
+      "subtitle": {
+        "NoneType": 9
+      },
+      "author": {
+        "NoneType": 9
+      }
+    },
+    "rating_distribution": {}
+  },
+  "semeval_train": {
+    "file": "Laptop_Train_v2.xml",
+    "exists": true,
+    "size_kb": 671.2,
+    "xml_valid": true,
+    "sentences": 3045,
+    "aspect_terms": 2358,
+    "aspect_polarities": {
+      "neutral": 460,
+      "positive": 987,
+      "negative": 866,
+      "conflict": 45
+    }
+  },
+  "semeval_test": {
+    "file": "Laptops_Test_Gold.xml",
+    "exists": true,
+    "size_kb": 174.56,
+    "xml_valid": true,
+    "sentences": 800,
+    "aspect_terms": 654,
+    "aspect_polarities": {
+      "positive": 341,
+      "negative": 128,
+      "neutral": 169,
+      "conflict": 16
+    }
+  }
+}

@@ -1,0 +1,24 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Large datasets and generated data
+data/raw/
+data/processed/*.parquet
+data/processed/embeddings/
+Dataset/
+
+# Trained models and checkpoints
+models/
+*.joblib
+*.pt
+*.pth
+*.npy
+*.npz
+
+# Secrets and temporary files
+.env
+.streamlit/secrets.toml
+*.log
