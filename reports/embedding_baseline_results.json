@@ -1,0 +1,41 @@
+{
+  "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+  "train_samples": 500000,
+  "validation_samples": 100000,
+  "accuracy": 0.7462,
+  "macro_f1": 0.6133799550625533,
+  "fit_minutes": 0.24,
+  "classification_report": {
+    "negative": {
+      "precision": 0.6831779034806095,
+      "recall": 0.6963432370662789,
+      "f1-score": 0.6896977491961415,
+      "support": 19252.0
+    },
+    "neutral": {
+      "precision": 0.1972263544315946,
+      "recall": 0.5536844941398357,
+      "f1-score": 0.29084990446535985,
+      "support": 7423.0
+    },
+    "positive": {
+      "precision": 0.9591185461386006,
+      "recall": 0.7787794067507672,
+      "f1-score": 0.8595922115261585,
+      "support": 73325.0
+    },
+    "accuracy": 0.7462,
+    "macro avg": {
+      "precision": 0.6131742680169349,
+      "recall": 0.6762690459856273,
+      "f1-score": 0.6133799550625533,
+      "support": 100000.0
+    },
+    "weighted avg": {
+      "precision": 0.849439196223673,
+      "recall": 0.7462,
+      "f1-score": 0.7846663881852606,
+      "support": 100000.0
+    }
+  }
+}
