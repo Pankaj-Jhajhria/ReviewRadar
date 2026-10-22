@@ -1,0 +1,52 @@
+{
+  "train_samples": 2000000,
+  "validation_samples": 100000,
+  "features": 100000,
+  "accuracy": 0.86868,
+  "macro_f1": 0.718494890304354,
+  "tfidf_minutes": 2.19,
+  "fit_minutes": 2.88,
+  "iterations": [
+    203
+  ],
+  "convergence_warning": false,
+  "class_f1": {
+    "negative": 0.8087759695738791,
+    "neutral": 0.40391170718077674,
+    "positive": 0.9427969941584062
+  },
+  "classification_report": {
+    "negative": {
+      "precision": 0.8057116346203412,
+      "recall": 0.8118637024724704,
+      "f1-score": 0.8087759695738791,
+      "support": 19252.0
+    },
+    "neutral": {
+      "precision": 0.34511077158135983,
+      "recall": 0.4868651488616462,
+      "f1-score": 0.40391170718077674,
+      "support": 7423.0
+    },
+    "positive": {
+      "precision": 0.9642801123643571,
+      "recall": 0.9222502557108763,
+      "f1-score": 0.9427969941584062,
+      "support": 73325.0
+    },
+    "accuracy": 0.86868,
+    "macro avg": {
+      "precision": 0.7050341728553526,
+      "recall": 0.7403263690149977,
+      "f1-score": 0.718494890304354,
+      "support": 100000.0
+    },
+    "weighted avg": {
+      "precision": 0.8877915688627572,
+      "recall": 0.86868,
+      "f1-score": 0.8769938116530437,
+      "support": 100000.0
+    }
+  },
+  "note": "Validation results only; test set remains untouched."
+}
