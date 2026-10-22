@@ -1,0 +1,8 @@
+{
+  "positive -> neutral": 6587,
+  "negative -> neutral": 3525,
+  "neutral -> negative": 2185,
+  "positive -> negative": 2072,
+  "neutral -> positive": 1134,
+  "negative -> positive": 597
+}
