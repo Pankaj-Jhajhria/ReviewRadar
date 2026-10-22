@@ -1,0 +1,52 @@
+{
+  "unweighted": {
+    "accuracy": 0.88223,
+    "macro_f1": 0.6650887755470496,
+    "fit_minutes": 0.69,
+    "class_f1": {
+      "negative": 0.8116388229950032,
+      "neutral": 0.2392137592137592,
+      "positive": 0.9444137444323863
+    }
+  },
+  "balanced": {
+    "accuracy": 0.839,
+    "macro_f1": 0.6960332466455275,
+    "fit_minutes": 1.44,
+    "class_f1": {
+      "negative": 0.7831465617640208,
+      "neutral": 0.3793151254679052,
+      "positive": 0.9256380527046564
+    }
+  },
+  "neutral_2x": {
+    "accuracy": 0.87462,
+    "macro_f1": 0.6969162787187465,
+    "fit_minutes": 0.9,
+    "class_f1": {
+      "negative": 0.7976304324726384,
+      "neutral": 0.3489295335318304,
+      "positive": 0.9441888701517707
+    }
+  },
+  "neutral_3x": {
+    "accuracy": 0.8652,
+    "macro_f1": 0.7022714565095582,
+    "fit_minutes": 1.2,
+    "class_f1": {
+      "negative": 0.7800414651002073,
+      "neutral": 0.3840613382899628,
+      "positive": 0.9427115661385045
+    }
+  },
+  "moderate_balance": {
+    "accuracy": 0.86587,
+    "macro_f1": 0.7057488762756289,
+    "fit_minutes": 1.08,
+    "class_f1": {
+      "negative": 0.7985517294507357,
+      "neutral": 0.3771004068156359,
+      "positive": 0.9415944925605152
+    }
+  }
+}
